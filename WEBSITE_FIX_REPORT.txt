@@ -1,0 +1,35 @@
+WEBSITE FIX REPORT
+==================
+
+WHAT WAS WRONG:
+- Many images were not loading because they used "data-src" instead of "src"
+- This caused broken images throughout the website
+- The website would show missing images and look broken
+
+WHAT I CHANGED:
+- Fixed all image links from "data-src" to "src" 
+- This makes all images load properly
+- Website now works normally with all images visible
+
+HOW TO PUBLISH ON NETLIFY:
+1. Go to netlify.com and sign up/login
+2. Click "New site from Git" 
+3. Choose "GitHub" 
+4. Select your repository: "hotel-vihsal-final-new"
+5. Click "Deploy site"
+6. Wait for it to finish (about 2 minutes)
+7. Your website will be live with a netlify.app address
+
+WHICH FOLDER TO UPLOAD:
+- Upload the ENTIRE folder: "deploy-689056a22e8cce1c4d21bb97"
+- This contains all your website files
+- Do NOT upload individual files
+
+WHAT TO CLICK ON NETLIFY:
+1. "New site from Git" button
+2. "GitHub" button  
+3. Your repository name
+4. "Deploy site" button
+5. Wait for green "Success" message
+
+YOUR WEBSITE WILL BE LIVE IN 2 MINUTES!
