@@ -1884,10 +1884,12 @@ body.menu-open {
 }
 
 .facility-card {
-    background-color: #ffffff;
-    border: 1px solid #e0e0e0;
+    background-color: #f8f8f8;
+    border: 2px solid #d0d0d0;
     padding: 2rem;
     transition: all 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .facility-card:hover {
@@ -2795,11 +2797,12 @@ body.menu-open {
 }
 
 .facility-card {
-    background-color: #fff;
+    background-color: #f8f8f8;
     border-radius: 8px;
     padding: 2.5rem;
     text-align: center;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border: 2px solid #d0d0d0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease;
 }
 
@@ -4160,13 +4163,13 @@ p {
 }
 
 .contact-card {
-    background-color: #fff;
+    background-color: #f8f8f8;
     border-radius: 10px;
     padding: 2.5rem 1.5rem;
     text-align: center;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border: 2px solid #d0d0d0;
 }
 
 .contact-card:hover {
